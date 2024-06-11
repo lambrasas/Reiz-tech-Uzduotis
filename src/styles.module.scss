@@ -1,0 +1,37 @@
+.sortContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.filterContainer {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.pagesContainer {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.parentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.103);
+  border-radius: 5px;
+  padding: 0 0 15px 15px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.pageButton {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(119, 0, 255, 0.233);
+  border: none;
+  border-radius: 5px;
+}
